@@ -4,6 +4,9 @@
 
     This module contains helper functions that interact with the
     documentary.net JSON API.
+
+    :copyright: (c) 2012 by Jonathan Beluch
+    :license: GPLv3, see LICENSE.txt for more details.
 '''
 import json
 import urllib2

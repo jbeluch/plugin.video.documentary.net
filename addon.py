@@ -4,9 +4,12 @@
 
     An XBMC addon for watching documentaries found on
     http://documentary.net/.
+
+    :copyright: (c) 2012 by Jonathan Beluch
+    :license: GPLv3, see LICENSE.txt for more details.
 '''
-from xbmcswift2 import Plugin, SortMethod
 from operator import itemgetter
+from xbmcswift2 import Plugin, SortMethod
 from resources.lib.api import  get_categories, get_category_posts
 
 
